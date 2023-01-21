@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.left-side-box {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    text-align: center;
+    background-color: #231f20;
+    box-shadow: 50px;
+}
+.right-side-box{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+#login-txt{
+    font-size: 50px;
+    font-weight: 700;
+    color: #231f20;
+}
+.login-box{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#email-input-box{
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+    height: 44px;
+    left: 653px;
+    top: 298px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#password-input-box{
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+    height: 44px;
+    left: 653px;
+    top: 298px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#login-btn{
+    width: 112px;
+    height: 43px;
+    color: #ffffff;
+    background: #231f20;
+    border-radius: 8px;
+}
+

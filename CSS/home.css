@@ -1,0 +1,62 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    background-color: white;
+}
+.header-home{
+    text-align: center;
+}
+.address{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    align-self: center;
+    padding-top: 40px;
+    color: #231f20;
+}
+.custom-btn1{
+    width: 200px;
+    height: 70px;
+    color: #ffffff;
+    background: #231f20;
+    border-radius: 8px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+.options{
+  margin: 30px;
+  text-align: center;
+}
+
+
+
+/* Here onwards CSS for addUser.html Starts */
+.form-field{
+    margin: 30px;
+    display:flex;
+    align-items: center; 
+    justify-content: center;
+}
+.input-box{
+    box-sizing: border-box;
+    width: -webkit-fill-available;
+    height: 44px;
+    left: 653px;
+    top: 298px;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

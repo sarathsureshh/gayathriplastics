@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gayathri Plastics || Login</title>
+
+    <link rel="icon" type="image/png" href="Assets/Images/logo-white.png"/>
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+
+    <script src="JS/login.js"></script>
+</head>
+<body>
+    <div class="left-side-box">
+        <img id="logo_img" src="Assets/Images/logo-black.png" alt="Gayathri Plastics Logo">
+    </div>
+    <div class="right-side-box">
+        <div class="login-box">
+            <h1 id="login-txt">Log In</h1><br>
+            <span class="welcome-text">Welcome back! Enter your credentials to access your account.</span><br><br>
+            <form class="login-form" autocomplete="off">
+                <label for="email">Email ID:</label><br>
+                <input type="text" id="email-input-box" name="email" placeholder="Enter Email ID"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password-input-box" name="password" placeholder="Enter password">
+            </form>
+            <br><br>
+            <button onclick="validateForm()" type="submit" id="login-btn" class="custom-btn">Log in</button>
+        </div>        
+</body>
+</html>
